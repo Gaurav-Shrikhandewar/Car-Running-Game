@@ -1,0 +1,40 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+#back { 
+    background: #000 center/cover url("scene.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    height: 415px;
+
+}
+
+#road { 
+    background: url("road.jpg");
+
+}
+
+#img {
+    width: 150px;
+}
+
+#btn { 
+    background-color: antiquewhite;
+    width: 100px;
+    font-size: xx-large;
+    /* text-align: center; */
+    margin-top: 100px;
+    margin-right: 15px;
+    border-radius: 40px;
+}
+
+#dbtn { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
